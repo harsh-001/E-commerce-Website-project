@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Products Detail-KARSUS</title>
+	<link rel="stylesheet" type="text/css" href="project.css">
+	
+</head>
+<body>
+		<div class="container"> 
+	<div class="navbar">
+	<div class="logo"> 
+	<a href="project.html"><img src="images/logo.jpg" width="150px"></a>
+</div>
+	<nav>
+	<ul>
+		<li><a href="project.html">Home</a></li>
+		<li><a href="product.html">Products</a></li>
+		<li><a href="">About</a></li>
+		<li><a href="">Contact</a></li>
+		<li><a href="login.html">Account</a></li>
+
+
+	</ul>
+		
+	</nav>
+	<a href="cartpage.html"><img src="images/cart.png" width="30px" height="20px">
+	</a>	</div>
+</div>
+</div>
+
+	<div class="small-container single-product">
+		<div class="row">
+			<div class="col-2">
+				<img src="images/same1.jpg" width="100%" id="productImg">
+		
+		<div class="small-img-row">
+			<div class="small-img-col">
+				<img src="images/same1a.jpg" width="100%" class="small-img">
+			</div>
+		<div class="small-img-col">
+				<img src="images/same1b.jpg" width="100%" class="small-img">
+			</div>
+		<div class="small-img-col">
+				<img src="images/product.jpg" width="100%" class="small-img">
+			</div>
+			<div class="small-img-col">
+				<img src="images/same1.jpg" width="100%" class="small-img">
+			</div>
+		</div>	
+		</div>
+	</div>
+</div>
+		<div class="col-2">
+				<p>HOME/T-shirt</p>
+				<h2> Wildcraft Orignal Cotton T-shirt </h2>
+				<h5>Rs.450.00</h5>
+				<select>
+					<option>Size</option>
+					<option>S</option>
+					<option>M</option>
+					<option>L</option>
+					<option>XL</option>
+				</select>
+				<input type="number" name="quantity" value="1">
+				<a href="cartpage.html" class="btn">Add to Cart</a>
+				<h3>Product Description</h3>
+				<p>This orange-grey t-shirt is branded by wildcraft. Easy to wash with 100% orignal cotton. Lining t-shirt which make your look gorgious everytime.</p>
+			</div>
+			</div>
+		</div>
+
+		</div>
+
+<div class="small-container">
+	<div class="row   row-2">
+		<h1> Related Products</h1>
+		<p>Veiw More</p>
+	</div>
+</div>	
+		<div class="small-container">
+			<div class="row">
+	<div class="col-4">
+		<img src="images/product2.jpg">
+		<h4>Wildcraft Branded shoes</h4>
+		<p> Rs 2450.00</p>
+	</div>
+	<div class="col-4">
+		<img src="images/product3.jpg">
+		<h4>Regular Denim Jeans</h4>
+		<p> Rs 1450.00</p>
+	</div>
+	<div class="col-4">
+		<img src="images/product4.jpg">
+		<h4>Blue Printed Tshirt</h4>
+		<p> Rs 650.00</p>
+	</div>
+</div>
+	</div>
+	
+
+
+	<div class="footer">
+		<div class=" container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h1>Download our App</h1>
+					<p>Download App for Android and Ios mobile phones.</p>
+					<div class="applogo">
+						<img src="images/playstore.png">
+						<img src="images/appstore.png">
+					</div>
+				</div>
+
+				<div class="footer-col-2">
+					<h2>Usefull links</h2>
+					<ul>
+						<li>Return policy</li>
+						<li>Terms and conditions</li>
+						<li>Prime membership</li>
+						<li>Delivery partner</li>
+					</ul>
+			</div>
+
+				<div class="footer-col-3">
+					<h2>Follow us on</h2>
+					<ul>
+						<li>Facebook</li>
+						<li>Instagram</li>
+						<li>Youtube</li>
+						<li>Twitter</li>
+					</ul>
+		</div>
+	</div>
+<hr>
+</div>
+</div>
+	<script>
+		var productImg= document.getElementById('productImg');
+		var smallImg= document.getElementsByClassName("small-img");
+		
+		smallImg[0].onclick = function() {
+			productImg.src = smallImg[0].src
+		}
+		smallImg[1].onclick = function() {
+			productImg.src = smallImg[1].src
+		}
+		smallImg[2].onclick = function() {
+			productImg.src = smallImg[2].src
+		}
+		smallImg[3].onclick = function() {
+			productImg.src = smallImg[3].src
+		}
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
